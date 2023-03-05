@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+/*Opmaak alle pagina's*/
+html{
+height: 100%;
+box-sizing: border-box;
+font-family: 'Courier Prime', monospace;
+}
+
+body{
+background-color: darkorange;
+position: relative;
+margin: 0;
+min-height: 100%;
+padding-bottom: 6.74rem;
+box-sizing: inherit;
+}
+
+.row {
+  display: flex;
+}
+
+[class*="col-"]{
+  width: 100%;
+    }
+    
+@media only screen and (min-width: 768px) {
+    [class*="col-"]{
+      float: left;
+      padding: 15px;
+      width: 100%;
+      }
+
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  }
+
+/*Opmaak header*/
+header{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    color:  white;
+}
+
+/*Opmaak footer*/
+footer{
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: #BA7205;
+  }
+
+/*Opmaak menu*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: chocolate;
+  border-bottom: 1px solid yellow;
+  border-radius: 4px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #FF9966;
+}
+
+/*Opmaak alle pagina's*/
+#Deel1{
+  width: 25%;
+  background-color: lightsalmon;
+  padding: 20px;
+  float: left;
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  padding-bottom: 6.74rem;
+  box-sizing: inherit;
+}
+
+#Deel2{
+  width: 75%;
+  background-color: white;
+  padding: 20px;
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  padding-bottom: 6.74rem;
+  box-sizing: inherit;
+}
+
+.kleur{
+  color: #BA7205;
+}
+
+/*Opmaak index*/
+.saxofoon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.artikel{
+  float: left;
+  margin-left: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/*Opmaak overons*/
+.kind{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Opmaak tarieven*/
+
+
+/*Opmaak contact*/
+form{
+  margin: 0 auto;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+select{
+  background-color: white;
+}
+
+textarea{
+  height: 200px;
+}
+
+#Verzend{
+  background-color: #BA7205;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
